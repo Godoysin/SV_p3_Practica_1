@@ -62,7 +62,7 @@
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/Dominio"
+        android:layout_alignTop="@+id/PASS"
         android:layout_marginLeft="96dp"
         android:layout_marginStart="96dp"
         android:layout_toRightOf="@+id/Dominio"
