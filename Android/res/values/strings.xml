@@ -4,5 +4,11 @@
     <string name="app_name">SM_Practica1</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="text_usuario">Usuario</string>
+    <string name="text_contraseña">Contraseña</string>
+    <string name="text_Dominio">Dominio</string>
+    <string name="text_Puerto">Puerto</string>
+    <string name="text_aceptar">Aceptar</string>
+    <string name="text_Contraseña">Contraseña</string>
 
 </resources>

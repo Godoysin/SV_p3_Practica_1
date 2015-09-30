@@ -9,31 +9,6 @@
     tools:context="com.example.sm_practica1.MainActivity" >
 
     <EditText
-        android:id="@+id/USER"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
-        android:ems="10"
-        android:hint="@string/text_usuario"
-        android:inputType="textPersonName" >
-
-        <requestFocus />
-    </EditText>
-    
-    <EditText
-        android:id="@+id/PASS"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/USER"
-        android:layout_alignStart="@+id/USER"
-        android:layout_below="@+id/USER"
-        android:ems="10"
-        android:hint="@string/text_contraseña"
-        android:inputType="textPassword" />
-
-    <EditText
         android:id="@+id/Dominio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -43,7 +18,21 @@
         android:ems="10"
         android:hint="@string/text_Dominio"
         android:inputType="textEmailAddress" />
-    
+
+    <EditText
+        android:id="@+id/PASS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/USER"
+        android:layout_alignStart="@+id/USER"
+        android:layout_below="@+id/USER"
+        android:ems="10"
+        android:hint="@string/text_contraseña"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+
     <EditText
         android:id="@+id/Puerto"
         android:layout_width="wrap_content"
@@ -55,14 +44,29 @@
         android:hint="@string/text_Puerto"
         android:inputType="number" />
 
-    <Button
-        android:id="@+id/Boton1"
+    <EditText
+        android:id="@+id/USER"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="@string/text_aceptar" >
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:hint="@string/text_usuario"
+        android:inputType="textPersonName" />
 
-    </Button>
-
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Dominio"
+        android:layout_marginLeft="96dp"
+        android:layout_marginStart="96dp"
+        android:layout_toRightOf="@+id/Dominio"
+        android:layout_toEndOf="@+id/Dominio"
+        android:text="@string/text_aceptar" />
+    
 </RelativeLayout>
